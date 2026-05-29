@@ -25,3 +25,11 @@ Once installed, invoke the skills in GitHub Copilot Chat:
 
 - **Document your project**: Ask Copilot to use the `create-core-knowledge` skill to scan and document your repository.
 - **Add a feature**: Ask Copilot to use the `add-feature` skill to implement a task based on the generated documentation.
+
+### Updating Installed Skills
+
+To pull down the latest security fixes, constraints, or feature updates from this repository, run:
+
+```bash
+npx skills update
+```
